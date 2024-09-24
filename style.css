@@ -1,0 +1,224 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.nav-item{
+    color:#812b10;
+    display: flex;
+    padding-top:20px ;
+    height: 0% ;
+    border: 0;
+    
+}
+a.nav-link{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    font-size: 40px;
+    text-decoration: none;
+    color: inherit;
+}
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+body{
+    width: auto;
+    margin: auto;
+    padding: auto;
+}
+
+.nav.justify-content{
+    border-radius: 2px;
+    background-color: #ecac1c;
+    padding: 0;
+    display: flex;
+}
+.nav-link{
+    margin-bottom: 0px;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: inherit;
+    display: flex;
+    width: 20px;
+    justify-items: flex-start;
+    text-decoration: none;
+}
+#carouseExample{
+    position: relative;
+}
+hr{ 
+    margin: 0rem 0;
+    width: 100%; /* Largura total */  
+    border: none ;
+    border-width: 150px; /* Remove bordas padrão */  
+    color: #b2624f; /* Cor da linha */
+    
+      
+}  
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+title{
+ 
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+#d-block.w-100{
+    background-color: aqua;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}/* imagem carrossel*/
+
+.pedido{
+    border-color: #ecac1c;
+    background-color:#812b10;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    width: 30%;
+    height: 9%;
+    border-radius: 15px;
+    margin-top: 1%;
+    font-size: 30px;
+    color:#ecac1c;
+    font-family: "Bree Serif", serif;
+    border-style: none;
+}
+.pedido-dois{
+    background-color:#ecac1c;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    width: 30%;
+    height: 9%;
+    border-radius: 15px;
+    margin-top: 1%;
+    font-size: 30px;
+    color:   #812b10;
+    font-family: "Bree Serif", serif;
+    border-style: none;
+}
+#card{
+    background-color: #ecac1c;
+    width: 50px;
+}
+#card-geral{
+    margin-bottom: 50px;
+    margin-top: 80px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+#menu{
+    font-family: "Bree Serif", serif;
+    padding-left: 20px;
+    color:#ecac1c ; /*laranja*/
+    margin-top: 40px;
+}
+#linha{
+    border-width: 3px;
+    width: 93%;
+}
+footer{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color:#812b10; /**/
+    color: #b2624f; /*marrom claro*/
+}
+.carousel-item{
+    position: relative;
+    
+}
+.baixo{
+    background-color: white;
+}
+img{
+    /*duas imagens só 
+    agpra cria*/
+    width: 100%;
+}
+#linha_menu{
+    width: 100%;
+    color: #812b10; /* marrom*/
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    #img.d-block.w-100 {
+        height: 200px; /* Altura reduzida para telas menores */
+    }
+
+    .pedido {
+         /* Tamanho do botão ajustado */
+        font-size: 22px;
+    }
+    .pedido-dois{
+        font-size: 22px;
+    }
+} 
+
+@media (max-width: 480px) {
+    #img.d-block.w-100 {
+    
+        height: 150px; /* Altura ainda menor para telas muito pequenas */
+    }
+
+    .pedido { 
+        margin-top: -150%; /*prestar atenção, acho que mexi no valor sem querer*/
+        
+    }
+    .perdido-dois{
+        margin-top: -190px ;
+    }
+}
+@media(max-width: 768px){
+    .pedido{
+        
+        margin-top: -17px;
+    }
+    .pedido-dois{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -165px;
+        
+    }
+}
+
+
+/* */
+
+/*
+    imagem encima da outra:
+    <div class="position-absolute bottom-50 
+    end-50"></div>: Posiciona o elemento no meio do
+    contêiner, na parte inferior.
+*/
+
+/*
+
+  cores:
+  .color1 { #ecac1c };
+  .color2 { #d4ab8b };
+  .color3 { #812b10 };
+  .color4 { #b2624f };
+  .color5 { #dcc7b9 };
+
+*/
