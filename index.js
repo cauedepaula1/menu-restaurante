@@ -1,8 +1,4 @@
-<<<<<<< HEAD
          var cards = window.document.querySelectorAll(".card"); 
-=======
-    var cards = window.document.querySelectorAll(".card"); 
->>>>>>> 4f32afc (commit)
         cards.forEach(function(card) {
             card.addEventListener("click", clicar);
             card.addEventListener("mouseenter", entrar);
@@ -50,18 +46,3 @@
                 pedido.style.color = "#812b10";
              });
         });
-<<<<<<< HEAD
-=======
-        /*let index = 0; 
-        const imagens = document.querySelectorAll(".imagens img");
-        const totalImagens = imagens.length;
-
-        function mostrarImagem(){
-            index++;
-            if(index >= totalImagens){
-                index = 0;
-            }
-            const deslocamento = - index
-            document.querySelector(".Imagens").style.transform 
-        }*/
->>>>>>> 4f32afc (commit)
