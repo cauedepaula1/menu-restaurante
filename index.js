@@ -1,4 +1,4 @@
-         var cards = window.document.querySelectorAll(".card"); 
+        var cards = window.document.querySelectorAll(".card"); 
         cards.forEach(function(card) {
             card.addEventListener("click", clicar);
             card.addEventListener("mouseenter", entrar);
